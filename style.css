@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #555;
+}
+
+.delete {
+    background: #b3261e;
+}
+
+.delete:hover {
+    background: #8e1d17;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-bottom: 40px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+}
+
+.inline {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.inline button {
+    margin-left: 10px;
+}
+
+a {
+    color: #1769aa;
+}
+
+.error {
+    background: #ffd7d7;
+    color: #900;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
